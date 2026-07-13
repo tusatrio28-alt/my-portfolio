@@ -1,0 +1,35 @@
+.card-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:.5rem;
+
+    margin-top:1.5rem;
+
+}
+
+.card-tag{
+
+    padding:.35rem .9rem;
+
+    border-radius:9999px;
+
+    background:rgba(59,130,246,.1);
+
+    color:var(--primary-light);
+
+    font-size:.85rem;
+
+}
+
+.skill-chip{
+
+    padding:.55rem 1rem;
+
+    border-radius:9999px;
+
+    border:1px solid rgba(59,130,246,.25);
+
+}

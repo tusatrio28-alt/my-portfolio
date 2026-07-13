@@ -1,0 +1,230 @@
+.glass-card{
+    position:relative;
+    overflow:hidden;
+
+    border-radius:28px;
+
+    background:#0f172a;
+
+    border:1px solid rgb(30 41 59);
+
+    transition:.35s;
+}
+
+.glass-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:rgb(59 130 246 / .5);
+
+    box-shadow:0 0 45px rgb(59 130 246 / .18);
+}
+
+.card-content{
+
+    padding:2rem;
+}
+
+.card-period{
+
+    color:#60a5fa;
+
+    font-size:.9rem;
+
+    margin-bottom:.6rem;
+}
+
+.card-title{
+
+    font-size:1.7rem;
+
+    font-weight:700;
+
+    color:white;
+}
+
+.card-subtitle{
+
+    color:#94a3b8;
+
+    margin-top:.25rem;
+}
+
+.card-description{
+
+    margin-top:1rem;
+
+    color:#cbd5e1;
+
+    line-height:1.8;
+}
+
+.card-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:.5rem;
+
+    margin-top:1.7rem;
+}
+
+.card-tag{
+
+    padding:.45rem .9rem;
+
+    border-radius:999px;
+
+    background:rgb(59 130 246 /.08);
+
+    color:#60a5fa;
+
+    font-size:.85rem;
+}
+
+.card-heading {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 1rem;
+
+}
+
+.card-icon {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 56px;
+
+    height: 56px;
+
+    border-radius: 16px;
+
+    background: rgb(59 130 246 / .08);
+
+    font-size: 1.8rem;
+
+    flex-shrink: 0;
+
+}
+
+.card-location {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: .5rem;
+
+    margin-top: 1rem;
+
+    color: #94a3b8;
+
+    font-size: .9rem;
+
+}
+
+/* ===================================
+   PROFILE
+=================================== */
+
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-container {
+  position: relative;
+}
+
+.profile-frame {
+
+  position: relative;
+
+  padding: 4px;
+
+  border-radius: 34px;
+
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #06b6d4,
+    #6366f1
+  );
+
+}
+
+.profile-image {
+
+  width: 400px;
+
+  max-width: 100%;
+
+  border-radius: 30px;
+
+  object-fit: cover;
+
+  background: #0f172a;
+
+  transition: .5s;
+
+}
+
+.profile-image:hover {
+
+  transform: scale(1.03);
+
+}
+
+.profile-badge {
+
+  position: absolute;
+
+  bottom: -25px;
+
+  right: -25px;
+
+  padding: 18px 24px;
+
+  border-radius: 20px;
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  background: rgba(15,23,42,.95);
+
+  backdrop-filter: blur(20px);
+
+  box-shadow: 0 20px 45px rgba(0,0,0,.35);
+
+}
+
+.feature-card {
+
+  padding: 1.5rem;
+
+  border-radius: 22px;
+
+  background: rgba(15,23,42,.65);
+
+  border: 1px solid rgba(148,163,184,.12);
+
+  transition: .3s;
+
+}
+
+.feature-card:hover {
+
+  transform: translateY(-6px);
+
+  border-color: rgb(59 130 246);
+
+  box-shadow: 0 12px 35px rgba(59,130,246,.12);
+
+}

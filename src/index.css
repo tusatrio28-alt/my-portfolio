@@ -9,6 +9,8 @@
 @import "./styles/watermark.css";
 @import "./styles/effects.css";
 @import "./styles/animations.css";
+@import "./styles/about.css";
+@import "./styles/contact.css";
 
 :root {
   --text: #6b6375;

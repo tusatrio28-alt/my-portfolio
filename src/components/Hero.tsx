@@ -1,5 +1,5 @@
 import { ArrowRight, Download } from "lucide-react";
-import hero from "../assets/edit_std_bola.jpg";
+import hero from "../assets/monitoring_room.jpg";
 
 
 export default function Hero() {
@@ -11,13 +11,11 @@ export default function Hero() {
       <div className="hero-glow" />
 
       <div className="section-container">
+
         <div className="hero-grid">
           {/* LEFT */}
-          <div>
-            <p className="hero-subtitle">
-              IT Broadcast Support
-            </p>
-
+          <div className="hero-content">
+            
             <h1 className="hero-title">
               Menjaga Infrastruktur
               <br />
@@ -55,12 +53,21 @@ export default function Hero() {
           </div>
 
           {/* RIGHT */}
-          <div className="flex justify-center">
+          <div className="hero-showcase">
+            <div className="hero-glow"></div>
             <img
               src={hero}
               alt="Broadcast Monitoring"
-              className="max-w-lg w-full"
+              className="hero-image"
             />
+            <div className="hero-overlay"/>
+            <div className="hero-status">
+              <span className="live-dot"/>
+              BROADCAST MONITORING
+            </div>
+            <div className="hero-info">
+              <span>24/7 System Monitoring</span>
+            </div>
           </div>
         </div>
       </div>

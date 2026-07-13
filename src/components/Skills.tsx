@@ -50,7 +50,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="bg-slate-900 py-32 text-white">
+    <section id="skills" className="section-dark">
       <div className="mx-auto max-w-7xl px-6">
         <div className="section-header">
           <span className="section-badge">
